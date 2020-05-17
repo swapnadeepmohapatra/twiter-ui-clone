@@ -13,6 +13,7 @@ import {
 } from '../components/Icons';
 import ComposeTweet from '../components/ComposeTweet';
 import CardTweet from '../components/CardTweet';
+import SearchInput from '../components/SearchInput';
 
 const Home = () => {
 	return (
@@ -160,7 +161,11 @@ const Home = () => {
 						</li>
 					</ul>
 				</main>
-				<aside>Links</aside>
+				<aside>
+					<div>
+						<SearchInput />
+					</div>
+				</aside>
 			</div>
 		</div>
 	);

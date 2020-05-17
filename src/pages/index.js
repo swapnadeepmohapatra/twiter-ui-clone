@@ -12,6 +12,7 @@ import {
 	IconSparkle,
 } from '../components/Icons';
 import ComposeTweet from '../components/ComposeTweet';
+import CardTweet from '../components/CardTweet';
 
 const Home = () => {
 	return (
@@ -20,7 +21,7 @@ const Home = () => {
 				className="bg-body text-white grid grid-cols-3 mx-16 min-h-screen"
 				style={{ gridTemplateColumns: '218px 1fr 300px' }}
 			>
-				<nav>
+				<nav className="fixed">
 					<div className="mb-8 mt-4 ml-4">
 						<IconTwitterLogo className="text-4xl" />
 					</div>
@@ -139,12 +140,25 @@ const Home = () => {
 						</li>
 					</ul>
 				</nav>
+				<div></div>
 				<main className="min-h-screen border-l border-r border-gray-600">
 					<header className="text-2xl font-bold flex justify-between px-4 border-b border-gray-600 py-4">
 						<span>Home</span>
 						<IconSparkle className="text-primary text-2xl" />
 					</header>
 					<ComposeTweet />
+					<div className="h-4 bg-gray-900 mt-3 mb-3"></div>
+					<ul>
+						<li>
+							<CardTweet />
+						</li>
+						<li>
+							<CardTweet />
+						</li>
+						<li>
+							<CardTweet />
+						</li>
+					</ul>
 				</main>
 				<aside>Links</aside>
 			</div>

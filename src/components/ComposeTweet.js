@@ -15,7 +15,7 @@ function ComposeTweet() {
 				<div>
 					<textarea
 						placeholder="What's happening ?"
-						className="bg-transparent text-lg"
+						className="bg-transparent text-xl"
 						style={{ resize: 'none' }}
 					></textarea>
 				</div>

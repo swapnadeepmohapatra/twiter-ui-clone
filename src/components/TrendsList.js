@@ -39,18 +39,6 @@ function TrendsList() {
 							<IconDowm className="text-gray-400" />
 						</span>
 					</li>
-					<li className="px-5 py-2 hover:bg-gray-900 flex justify-between border-b border-gray-600">
-						<div>
-							<span className="text-gray-400 text-sm">COVID-19 · LIVE</span>
-							<h6 className="font-bold">
-								COVID-19: More than 60 nations back Australia's call for an independent inquiry into the
-								virus origins
-							</h6>
-						</div>
-						<span>
-							<IconDowm className="text-gray-400" />
-						</span>
-					</li>
 				</ul>
 				<div className="hover:bg-gray-900 px-5 py-4 text-primary">
 					<button>Show More</button>

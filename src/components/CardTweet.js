@@ -16,7 +16,7 @@ function CardTweet() {
 					<h5 className="font-bold mr-2">Swapnadeep Mohapatra</h5>
 					<span className="text-gray-400">@SwapnadeepTukk</span>
 				</div>
-				<p className="mt-2">
+				<p className="mt-0">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fuga accusantium numquam blanditiis
 					velit nemo obcaecati mollitia, ea corrupti? Dolores repellat alias cupiditate, quod libero
 					distinctio sapiente. Incidunt, iusto expedita?

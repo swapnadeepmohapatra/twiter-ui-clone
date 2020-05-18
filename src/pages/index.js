@@ -15,6 +15,7 @@ import ComposeTweet from '../components/ComposeTweet';
 import CardTweet from '../components/CardTweet';
 import SearchInput from '../components/SearchInput';
 import TrendsList from '../components/TrendsList';
+import Follow from '../components/Follow';
 
 const Home = () => {
 	return (
@@ -168,6 +169,10 @@ const Home = () => {
 					</div>
 					<div className="mt-4 ml-4 w-full">
 						<TrendsList />
+					</div>
+
+					<div className="mt-4 ml-4 w-full mb-4">
+						<Follow />
 					</div>
 				</aside>
 			</div>
